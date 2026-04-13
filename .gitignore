@@ -1,0 +1,17 @@
+# Build artifacts
+/target
+**/target/
+
+# Cargo lock files in sub-crates (workspace uses root Cargo.lock)
+**/Cargo.lock
+!/Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+[package]
+name = "ex024_pattern_matching_advanced"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

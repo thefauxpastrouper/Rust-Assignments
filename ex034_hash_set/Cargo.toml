@@ -1,0 +1,6 @@
+[package]
+name = "ex034_hash_set"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

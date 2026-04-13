@@ -1,0 +1,8 @@
+[package]
+name = "example_usage"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+my_derive = { path = "../my_derive" }
+my_trait = { path = "../my_trait" }
