@@ -1,0 +1,10 @@
+[package]
+name = "ex096_cargo_features"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[features]
+logging = []
+debug_mode = []

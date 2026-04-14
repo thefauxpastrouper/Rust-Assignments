@@ -1,0 +1,6 @@
+[package]
+name = "ex083_custom_panic_handlers"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

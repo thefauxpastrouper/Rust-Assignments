@@ -1,0 +1,7 @@
+[package]
+name = "ex090_builder_pattern"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+typed-builder = { workspace = true }

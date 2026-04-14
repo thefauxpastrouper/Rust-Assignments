@@ -81,9 +81,14 @@ members = [
     "string_manipulation",
     "structs",
     "tuples",
-    "variables",
+    "variables", "ex079_error_conversion", "ex080_error_chains", "ex081_thiserror", "ex082_panic_safety", "ex083_custom_panic_handlers", "ex084_zero_cost_abstractions", "ex085_inline_assembly", "ex086_bechmarking",
+    "ex087_profile_guided_optimizations", "ex088_memory_allocators", "ex089_stack_vs_heap", "ex090_builder_pattern", "ex091_newtype_with_deref", "ex092_interior_mutability", "ex093_type_erasure", "ex094_visitor_pattern", "ex095_strategy_pattern", "ex096_cargo_features", "ex098_no_std", "ex099_wasm_target", "ex100_ffi_bindings", 
 ]
 
 [workspace.dependencies]
 tokio = { version = "1.40", features = ["full"] }
 futures = "0.3"
+anyhow = "1.0"
+thiserror = "1.0"
+typed-builder = "0.16"
+

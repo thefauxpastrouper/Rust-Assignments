@@ -1,0 +1,11 @@
+[package]
+name = "ex098_no_std"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+libm = { version = "0.2", optional = true }
+
+[features]
+default = ["std"]
+std = []
